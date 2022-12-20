@@ -1,4 +1,4 @@
-#include "/usr/include/python3.4/Python.h"
+#include <tests.py>
 #include <stdio.h>
 #include <stdlib.h>
 
