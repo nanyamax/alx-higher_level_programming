@@ -195,4 +195,3 @@ class Rectangle:
         """
         w = str(eval('self.width'))
         h = str(eval('self.height'))
-
