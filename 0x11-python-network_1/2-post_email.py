@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """script that takes in a url and an email, sends a POST request to the passed url"""
-
 import urllib.parse
 import urllib.request
 import sys
