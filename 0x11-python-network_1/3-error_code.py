@@ -6,13 +6,12 @@ import sys
 
 
 if __name__ == "--main__":
-url = sys.argv[1]
+    url = sys.argv[1]
 
-try:
-    with urllib.request.urlopen(url) as response:
-        html = response.read()
-        print(html.decode('utf-8'))
-
-except urllib.error.HTTPError as error:
-    print("Error code: {}".format(error.code))
+    try:
+        with urllib.request.urlopen(url) as response:
+            html = response.read()
+            print(html.decode('utf-8'))
+    except urllib.error.HTTPError as error:
+        print("Error code: {}".format(error.code))
 
