@@ -1,9 +1,11 @@
 #!usr/bin/python3
-#displays body of response(decoded in utf-8), while managing erroe exceptions and printing http status code
+displays body of response(decoded in utf-8), while managing erroe exceptions and printing http status code
 import urllib.request
 import urllib.error
 import sys
 
+
+if __name__ == "--main__"
 url = sys.argv[1]
 
 try:
