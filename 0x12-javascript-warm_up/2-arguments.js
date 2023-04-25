@@ -1,8 +1,11 @@
 #!/usr/bin/node
-
-if process.argv[0];
-console.log("No Arguments");
-else if process.argv[1];
-console.log("Argument passesd");
-else process.argv[>1];
-console.log("Arguments passed");
+const args = process.argv;
+if (args.length === 3) {
+console.log("Argument found");
+}
+else if (args.length > 3) {
+console.log("Arguments found");
+}
+else {
+console.log("No argument");
+}
